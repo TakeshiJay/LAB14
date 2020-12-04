@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Main
-comment0.text=\r\n\ A\ program\ that\ simulates\ a\ tic-tac-toe\ game.\r\n\ \r\n\ @author\ Catherine\ Bui,\ Jacob\ Sunia,\ Paul\ Cao\r\n\ @version\ 12/01/2020\r\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment1.text=\r\n\ Prompts\ user\ for\ their\ choice\ that\ places\ their\ token\ and\ the\ computer\r\n\ generated\ one,\ reverts\ the\ user's\ token,\ or\ quits\ the\ game.\r\n
-numComments=2
