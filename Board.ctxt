@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=Board\ class\ is\ the\ tik\ tac\ toe\ initial\ gameboard
+comment1.params=token\ row\ col
+comment1.target=boolean\ placeToken(char,\ int,\ int)
+comment1.text=\r\n\ placeToken\ takes\ the\ current\ token\ whether\ 'X'\ or\ 'O'\ and\ places\ it\ in\r\n\ collumns\ position\r\n\ \r\n\ @param\ token\ is\ going\ to\ be\ the\ 'X'\ or\ 'O'\ for\ the\ board\r\n\ @param\ row\ \ \ is\ the\ current\ xValue\ or\ row\ of\ the\ specified\ character\r\n\ @param\ col\ \ \ is\ the\ current\ yValue\ or\ collumn\ of\ the\ specified\ character\r\n
+comment2.params=
+comment2.target=void\ display()
+comment2.text=\r\n\ display\ display's\ the\ board\ and\ prints\ according\ to\ user\ call\ in\ main\r\n
+comment3.params=
+comment3.target=Memento\ save()
+comment3.text=\r\n\ save\ method\ is\ used\ as\ a\ callback\ functionthat\ stores\ the\ previous\ state\ of\r\n\ the\ board\r\n\ \r\n\ @return\ the\ Previous\ state\ of\ the\ board\r\n
+comment4.params=m
+comment4.target=void\ restore(Memento)
+comment4.text=\r\n\ Restores\ the\ moment\ of\ the\ board\ that\ was\ called\ last\ LIFO\r\n\ \r\n\ @param\ m\ the\ moment\ of\ the\ board\ at\ that\ current\ state\r\n
+comment5.params=token\ row\ col
+comment5.target=char\ checkWinner(char,\ int,\ int)
+comment5.text=\r\n\ Takes\ in\ the\ last\ move\ inputted\ and\ calculates\ if\ a\ win\ has\ been\ made.\r\n\ \r\n\ @param\ token\ the\ last\ char\ inputted\ into\ the\ board\r\n\ @param\ row\ \ \ the\ row\ of\ the\ last\ inputted\r\n\ @param\ col\ \ \ the\ column\ of\ the\ last\ inputted\r\n\ @return\ the\ token\ if\ the\ last\ move\ won,\ a\ space\ if\ no\ win\ is\ found,\ and\ t\ if\r\n\ \ \ \ \ \ \ \ \ the\ board\ has\ been\ filled\ up\r\n
+comment6.params=
+comment6.target=boolean\ fullBoard()
+comment6.text=\r\n\ Checks\ if\ the\ board\ is\ full\ and\ returns\ its\ state.\r\n\ \r\n\ @return\ true\ if\ the\ board\ if\ full,\ and\ false\ otherwise\r\n
+numComments=7

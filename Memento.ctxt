@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Memento
+comment0.text=\r\n\ Memento\ class\ is\ a\ reverter\ class\ to\ refer\ the\ current\ state\ of\ the\ board\ to\r\n\ its\ last\ known\ state\r\n
+comment1.params=b
+comment1.target=Memento(char[][])
+comment1.text=\r\n\ Memento\ is\ a\ overrloaded\ constructor\ that\ initializes\ the\ memento's\ board\r\n\ param\ b\ is\ the\ board\ that\ will\ be\ save\ in\ accordance\ to\ the\ main\r\n
+comment2.params=
+comment2.target=char[][]\ getState()
+comment2.text=\r\n\ getState\ is\ a\ getter\ function\ that\ returns\ the\ mementoBoard\r\n\ \r\n\ @return\ the\ backtracked\ board\r\n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CheckInput
+comment0.text=\ \r\n\ Static\ functions\ used\ to\ check\ console\ input\ for\ validity.\r\n\r\n\ Use\:\tPlace\ CheckInput\ class\ in\ the\ same\ project\ folder\ as\ your\ code.\r\n\tCall\ CheckInput\ functions\ from\ your\ code\ using\ "CheckInput."\r\n\r\n\ Example\:\ \ int\ num\ \=\ CheckInput.getInt();\r\n\r\n\ @author\ Shannon\ Cleary\ 2020\r\n
+comment1.params=
+comment1.target=int\ getInt()
+comment1.text=\r\n\ Checks\ if\ the\ inputted\ value\ is\ an\ integer.\r\n\ @return\ the\ valid\ input.\r\n
+comment2.params=low\ high
+comment2.target=int\ getIntRange(int,\ int)
+comment2.text=\r\n\ Checks\ if\ the\ inputted\ value\ is\ an\ integer\ and\ \r\n\ within\ the\ specified\ range\ (ex\:\ 1-10)\r\n\ @param\ low\ lower\ bound\ of\ the\ range.\r\n\ @param\ high\ upper\ bound\ of\ the\ range.\r\n\ @return\ the\ valid\ input.\r\n
+comment3.params=
+comment3.target=int\ getPositiveInt()
+comment3.text=\r\n\ Checks\ if\ the\ inputted\ value\ is\ a\ non-negative\ integer.\r\n\ @return\ the\ valid\ input.\r\n
+comment4.params=
+comment4.target=double\ getDouble()
+comment4.text=\r\n\ Checks\ if\ the\ inputted\ value\ is\ a\ double.\r\n\ @return\ the\ valid\ input.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getString()
+comment5.text=\r\n\ Takes\ in\ a\ string\ from\ the\ user.\r\n\ @return\ the\ inputted\ String.\r\n
+comment6.params=
+comment6.target=boolean\ getYesNo()
+comment6.text=\r\n\ Takes\ in\ a\ yes/no\ from\ the\ user.\r\n\ @return\ true\ if\ yes,\ false\ if\ no.\r\n
+numComments=7
